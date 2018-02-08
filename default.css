@@ -15,11 +15,18 @@ body {
 }
 
 h1, h2, h3 {
-	text-transform: lowercase;
+	/*text-transform: lowercase;*/
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
 	font-style: italic;
 	color: #FF941D;
+}
+
+h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: ##707070;
+	font-size: 12px;
 }
 
 h1 { font-size: 80px; }
@@ -54,8 +61,9 @@ strong {
 /* Posts */
 
 .post {
+	height: 160px;
 	margin-bottom: 9px;
-	padding: 20px 40px 20px 60px;
+	padding: 20px 40px 20px 40px;
 	background: #131313;
 	border-top: 1px solid #1F1F1F;
 	border-right: 1px solid #1F1F1F;
@@ -63,8 +71,8 @@ strong {
 	border-left: 1px solid #1F1F1F;
 }
 
-.post h2, .post h3 {
-	margin-left: -40px;
+.post h2, .post h3, .post h4{
+	margin-left: 200px;
 }
 
 /* Header */
